@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/inicio.css">
+    <title>Eduardo Nobre</title>
+    <link rel="shortcut icon" href="../imagem/icone.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="barra">
+        <a href="inicio.html">inicio</a>
+        <a href="primeiro.html">Primeiro</a>
+        <a href="segundo.html">Segundo</a>
+        <a href="terceiro.html">Terceiro</a>
+
+    </nav>
+    <img id="logo" src="../imagem/logo.png" alt="">
+
+
+    <img id="perfil" src="../imagem/20220605_144425.jpg" alt="">
+
+    <h1>Olá eu sou o Eduardo</h1>
+    <p>Contar um pouco sobre mim, estou estudando no SENAI Theobaldo de Nigris, fiz 4 anos de designer gráfico e criação
+        de jogos na escola Saga Tatuapé. Gosto de fazer embalagens mais modernas e de consumo rápido
+    </p>
+        <footer class="botao">
+            <h4>Eduardo Nobre</h4>
+            <a href="https://pt-br.facebook.com/" target="_blank"><img src="../imagem/logo facebook.png" alt=""></a>
+            <a href="https://www.instagram.com/odroude/?next=%2F" target="_blank"><img src="../imagem/logo insta.png" alt=""></a>
+            <a href="https://twitter.com/Odroude" target="_blank"><img src="../imagem/twitter logo.png" alt=""></a>
+        </footer>
+
+
+</body>
+
+
+</html>
