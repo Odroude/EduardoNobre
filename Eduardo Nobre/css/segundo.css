@@ -1,0 +1,131 @@
+#img1 {
+    position: relative;
+    top: 200px;
+    left: 300px;
+    width: 500px;
+    }
+
+
+#img2 {
+    position: relative;
+    top: 200px;
+    left: 600px;
+    width: 500px;
+    transition: all 1s;
+    cursor: pointer;}
+
+#img3 {
+    position: relative;
+    top: 300px;
+    left: 300px;
+    width: 500px;
+    transition: all 1s;
+    cursor: pointer;}
+
+#img4 {
+    position: relative;
+    width: 500px;
+    top: 300px;
+    left: 600px;
+    transition: all 1s;
+    cursor: pointer;}
+
+
+#img1:hover {
+    transform: scale(1.5);
+    filter: drop-shadow(15px 10px 5px rgba(90, 89, 89, 0.637))}
+
+#img2:hover {
+    transform: scale(1.5);
+    filter: drop-shadow(15px 10px 5px rgba(90, 89, 89, 0.637))}
+
+#img3:hover {
+    transform: scale(1.5);
+    filter: drop-shadow(15px 10px 5px rgba(90, 89, 89, 0.637))}
+
+#img4:hover {
+    
+    transform: scale(1.5);
+    filter: drop-shadow(15px 10px 5px rgba(90, 89, 89, 0.637))}
+
+section{ position: relative;
+top: 130px;}
+
+
+.slider{
+    left: 500px;
+    overflow: hidden;
+
+}
+.slider > .slider-content{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    transition: all 500ms ease;
+
+}
+
+.slider > .slider-content > .slider-item {
+    flex: 0 0 auto;
+    width: 100%;
+    left: 800px;
+}
+
+.slider > input:nth-child(1):checked ~ .slider-content{
+    transform: translateX(0%);
+}
+
+.slider > input:nth-child(2):checked ~ .slider-content{
+    transform: translateX(-100%);
+}
+.slider > input:nth-child(3):checked ~ .slider-content{
+    transform: translateX(-200%);
+}
+
+.slider > input:nth-child(4):checked ~ .slider-content{
+    transform: translateX(-300%);
+} 
+
+
+.sobreposicao {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgb(226, 171, 100);
+}  
+
+.texto {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#img1:hover .sobreposicao { opacity: 80%;}
+
+.botao h4{  
+    position: relative;
+    left: 50%;
+    top: 450px;
+    font-family: Outfit;
+    color: black;
+
+}
+
+.botao img {
+    width: 50px;
+    position: relative;
+    left: 900px;
+    top: 450px;
+    border-radius: 10px;
+    margin: 10px;
+}

@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Outfit;
+    src: url(../fonte/Outfit-VariableFont_wght.ttf);}
+
+
+#logo {
+    width: 100px;
+    position: fixed;
+    top: 10px;
+    left: 30px;
+    right: 30px;}
+
+h1 {
+    font-family: Outfit;
+    text-align: center;
+    position: relative;}
+
+nav {
+    background-color: #3abaff;
+    opacity: 85%;
+    width: 100%;
+    text-align: right;
+    text-decoration: none;
+    padding: 50px;
+    position: fixed;
+    right: 10px;
+    top: 0px;
+    font-size: 20px;
+    z-index: 10;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.barra a {
+    padding: 30px;
+    left: 50%;
+    text-decoration: none;
+    width: 50px;
+    font-family: Outfit;
+    transition: all .3s;
+    cursor: pointer;
+    color: black;}
+
+.barra a:hover {
+    transform: scale(2.5);
+    background: black;
+    border-radius: 50px;
+    color: white;}
+
+
+    .botao h4{  
+        position: relative;
+        left: 50%;
+        top: 450px;
+        font-family: Outfit;
+        color: black;
+        
+    }
+    
+    .botao img {
+        width: 50px;
+        position: relative;
+        left: 900px;
+        top: 450px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    
+    /* imagens  */
+
+#gif {
+    position: relative;
+    left: 300px;
+    top: 50px;}
+
+#img1 {
+    position: relative;
+    top: 200px;
+    left: 300px;
+    width: 400px;
+    top: 100px;
+    transition: all 1s;
+    cursor: pointer;}
+
+
+#img2 {
+    position: relative;
+    top: 100px;
+    left: 600px;
+    width: 400px;
+    transition: all 1s;
+    cursor: pointer;}
+
+#img3 {
+    position: relative;
+    left: 300px;
+    width: 400px;
+    transition: all 1s;
+    cursor: pointer;}
+
+#img4 {
+    position: relative;
+    width: 300px;
+    top: 200px;
+    left: 600px;
+    transition: all 1s;
+    cursor: pointer;}
+
+
+#img1:hover {
+    transform: scale(1.5);
+    filter: drop-shadow(15px 10px 5px rgba(90, 89, 89, 0.637))}
+
+#img2:hover {
+    transform: scale(1.5);
+    filter: drop-shadow(15px 10px 5px rgba(90, 89, 89, 0.637))}
+
+#img3:hover {
+    transform: scale(1.5);
+    filter: drop-shadow(15px 10px 5px rgba(90, 89, 89, 0.637))}
+
+#img4:hover {
+    
+    transform: scale(1.5);
+    filter: drop-shadow(15px 10px 5px rgba(90, 89, 89, 0.637))}
+
+
+    
+
